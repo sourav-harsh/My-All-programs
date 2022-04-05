@@ -1,0 +1,13 @@
+print("Hello")
+my=(1,2,3)
+ty=2,3,4,'Hello',[3,4,5]
+print(ty)
+print(type(ty))
+print(ty[3][0])
+pl='Hello'
+ty[4][0]=12
+print(ty)
+print((ty)+(my))
+print((pl)*3)
+print(pl.count('o'))
+print(pl.index('o'))
